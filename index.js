@@ -17,9 +17,7 @@ const users =[
         age:27
 
     }
-
 ]
-
 
 // Get All Users
 app.get('/GetAllUsers',(req,res)=>{
