@@ -20,4 +20,12 @@ const users =[
 
 ]
 
-console.log(users);
+
+// Get All Users
+app.get('/GetAllUsers',(req,res)=>{
+    return res.json({message:'success',users:users});
+});
+
+app.listen(3000,()=>{
+    console.log(`server is running ..... 3000`)
+});
